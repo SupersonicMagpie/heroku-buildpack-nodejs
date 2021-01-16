@@ -57,6 +57,10 @@ source "$BP_DIR/lib/builddata.sh"
 source "$BP_DIR/lib/yarn-2.sh"
 
 export PATH="$ROOT_DIR/.heroku/node/bin:$ROOT_DIR/.heroku/yarn/bin":$PATH
+echo "$ROOT_DIR/.heroku/node/bin:$ROOT_DIR/.heroku/yarn/bin":$PATH
+
+
+
 
 LOG_FILE=$(mktemp -t node-build-log.XXXXX)
 echo "" > "$LOG_FILE"
