@@ -132,8 +132,8 @@ log_build_scripts() {
 }
 
 yarn_node_modules() {
-#   local build_dir=${1:-}
-#   local production=${YARN_PRODUCTION:-false}
+  local build_dir=${1:-}
+  local production=${YARN_PRODUCTION:-false}
 
 #   echo "Installing node modules (yarn.lock)"
 #   cd "$build_dir" || return
